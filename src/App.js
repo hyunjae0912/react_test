@@ -59,10 +59,6 @@ const todoReducer = (oldState, action) => {
 }
 
 
-const inputter = styled.input`
-  margin-right: 20px;
-`;
-
 function App() {
 
   const [todo, todoDispatch] = useReducer(todoReducer, []);
