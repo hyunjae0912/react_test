@@ -95,7 +95,7 @@ function App() {
       }}
       />
 
-
+      
       <button
       onClick={() => {
         todoDispatch({ type: 'ADD', text: input, moneyType: moneyType});
