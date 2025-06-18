@@ -1,6 +1,4 @@
-import { type } from '@testing-library/user-event/dist/type';
 import { useReducer, useState } from 'react';
-import styled from 'styled-components';
 
 
 
@@ -95,7 +93,7 @@ function App() {
       }}
       />
 
-      
+
       <button
       onClick={() => {
         todoDispatch({ type: 'ADD', text: input, moneyType: moneyType});
